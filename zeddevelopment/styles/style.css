@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hind Vadodara", sans-serif;
+  font-family: "Red Hat Text", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  height: 100px;
+}
+
+header {
+  background-color: #151357;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  color: #d3d3d3;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+header h1 a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+header nav {
+  display: none;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin: 20px;
+  list-style: none;
+}
+header nav ul li a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.show-case {
+  background-image: url("../assets/showcase.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+.show-case .content {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -90%);
+}
+.show-case .content h2 {
+  color: #151357;
+  text-shadow: 1.5px 1.5px 10px white;
+  font-size: 30px;
+  width: 90%;
+  margin: auto;
+}
+.show-case .content button {
+  background-color: #ffa500;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 3px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #151357;
+  font-weight: 600;
+}
+
+.about {
+  background-color: #ffa500;
+  padding: 100px 0;
+  margin: auto;
+}
+.about h3 {
+  font-size: 25px;
+  width: 90%;
+  margin: 0 auto 30px auto;
+}
+.about .content p {
+  font-size: 20px;
+  line-height: 35px;
+  width: 90%;
+  margin: auto;
+}
+
+.img {
+  width: 100%;
+}
+
+.services {
+  background-color: #151357;
+  padding: 100px 0;
+}
+.services .content {
+  width: 90%;
+  margin: auto;
+  color: #d3d3d3;
+  margin: auto;
+}
+.services .content h3 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.services .content .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.services .content .item img {
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+.services .content .item p {
+  font-size: 30px;
+}
+
+.contact {
+  padding: 100px 0;
+  width: 90%;
+  margin: auto;
+  color: #151357;
+}
+.contact h3 {
+  font-size: 25px;
+  margin: auto;
+}
+.contact p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.contact .form {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+.contact .form input {
+  width: 80%;
+  padding: 7px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: solid 2px #151357;
+}
+.contact .form textarea {
+  width: 80%;
+  height: 200px;
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 3px;
+  border: solid 2px #151357;
+}
+.contact .form button {
+  background-color: #ffa500;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #151357;
+}
+
+footer {
+  padding: 35px;
+  background-color: #151357;
+  color: #ffa500;
+}/*# sourceMappingURL=style.css.map */
